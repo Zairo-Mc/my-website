@@ -5,58 +5,99 @@
      crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع Zairo MC الرسمي</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <title>Zairo MC - الموقع الرسمي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
 <body>
 
-    <nav>
-        <a href="#home">الرئيسية</a>
-        <a href="#videos">الفيديوهات</a>
-        <a href="#downloads">التنزيلات</a>
-        <a href="#community">المجتمع</a>
-        <a href="#about">حول</a>
-    </nav>
-
-    <div class="main-content">
-        <!-- قسم الرئيسية -->
-        <div id="home" class="box">
-            <h1>مرحباً بك في موقع Zairo MC الرسمي</h1>
+    <header>
+        <div class="nav-container">
+            <div class="logo">Zairo MC</div>
+            <nav>
+                <a href="#home">الرئيسية</a>
+                <a href="#videos">الفيديوهات</a>
+                <a href="#downloads">التنزيلات</a>
+                <a href="#about">حول الموقع</a>
+                <a href="#privacy">الخصوصية</a>
+            </nav>
         </div>
+    </header>
 
-        <!-- قسم الفيديوهات -->
-        <div id="videos" class="box">
-            <h2>الفيديوهات</h2>
-            <p>هنا ستجد أحدث فيديوهاتي.</p>
-            <a href="https://youtube.com/shorts/aEFH_b2SjYY?si=eQCyuFnMX1vyeRTX" target="_blank" class="video-link">اضغط هنا لمشاهدة الفيديو</a>
-        </div>
-
-        <!-- قسم التنزيلات -->
-        <div id="downloads" class="box">
-            <h2>التنزيلات</h2>
-            <p>روابط تحميل الملفات والأدوات.</p>
-        </div>
-
-        <!-- قسم المجتمع -->
-        <div id="community" class="box">
-            <h2>المجتمع</h2>
-            <p>انضم إلينا وشارك في النقاشات.</p>
-        </div>
-
-        <!-- قسم حول -->
-        <div id="about" class="box">
-            <h2>حول الموقع</h2>
-            <p>معلومات عني وعن مشروع Zairo MC.</p>
-        </div>
+    <div class="hero" id="home">
+        <h1>مرحباً بك في عالم Zairo MC</h1>
+        <p>الموقع الرسمي لمتابعة أحدث مشاريع ماين كرافت، البرمجة، المودات، ومقاطع الشورتس الحصرية أولاً بأول!</p>
     </div>
 
+    <div class="container">
 
-       <div id="footer" class="box">
-        <footer>
-           Zairo Master Craft © 2026
-        </footer>
-       </div>
-  
+        <section id="videos">
+            <h2>آخر مقاطع الشورتس الحصرية</h2>
+            <div class="video-grid">
+                
+                <div class="video-card">
+                    <div class="video-container shorts">
+                        <iframe src="https://www.youtube.com/embed/aEFH_b2SYYY" title="صنعت لعبتي الخاصة داخل ماين كرافت!" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>صنعت لعبتي الخاصة داخل ماين كرافت! (المرحلة الأولى) 🤯🎮</h3>
+                        <p>شاهد تجربة تصميم وتطوير لعبة مصغرة متكاملة داخل العوالم!</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-container shorts">
+                        <iframe src="https://www.youtube.com/embed/aEFH_b2SYYY" title="Zairo MC Shorts" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>خلف كواليس برمجة المودات وتطوير العوالم 🔧</h3>
+                        <p>أفكار برمجية سريعة وميزات مذهلة أضيفها في اللعبة.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="downloads">
+            <h2>مركز تحميل الأدوات والمودات</h2>
+            <div class="download-grid">
+                
+                <div class="download-card">
+                    <h3>Flashback Mod</h3>
+                    <p class="download-desc">أداة رائعة ومميزة لتسجيل وحفظ اللحظات الأسطورية داخل اللعبة تلقائياً بجودة عالية.</p>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/flashback" target="_blank" class="download-btn">تحميل المود المباشر</a>
+                </div>
+
+                <div class="download-card">
+                    <h3>Replay Mod</h3>
+                    <p class="download-desc">المود الأساسي لكل صانع محتوى لتصوير اللقطات السينمائية وتحريك الكاميرا باحترافية.</p>
+                    <a href="https://www.replaymod.com/" target="_blank" class="download-btn">تحميل المود الرسمي</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>حول مشروع Zairo MC</h2>
+            <div class="about-content">
+                <p>موقع Zairo MC هو منصة متخصصة تهدف إلى إثراء مجتمع الألعاب، وتحديداً لعبة ماين كرافت (Minecraft)، من خلال تقديم شروحات تقنية ومودات مخصصة وأدوات تساعد اللاعبين وصناع المحتوى على تحسين تجربتهم وتطوير مهاراتهم في اللعب والتصميم البصري.</p>
+                <p>نحن نعمل باستمرار على برمجة وتطوير عوالم وألعاب مصغرة فريدة من نوعها ومشاركتها مع مجتمعنا الإبداعي لتوفير تجربة لعب لا مثيل لها.</p>
+            </div>
+        </section>
+
+        <section id="privacy">
+            <h2>سياسة الخصوصية وبنود الاستخدام</h2>
+            <div class="policy-box">
+                <p><strong>سياسة الخصوصية لـ Zairo MC:</strong> نحن نحترم خصوصية زوارنا تماماً. يرجى العلم أن هذا الموقع يستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربة التصفح ولعرض الإعلانات المخصصة عبر شبكة Google AdSense الشريكة. لا نقوم بجمع أو تخزين أي بيانات شخصية حساسة عن المستخدمين دون علمهم. تصفحك للموقع يعني موافقتك على شروط الاستخدام المتبعة.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لـ Zairo Master Craft © 2026</p>
+    </footer>
 
 </body>
 </html>
