@@ -1,0 +1,58 @@
+body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background-color: #8585a9c8; color: #333; scroll-behavior: smooth; }
+
+/* النافبار ثابتة */
+nav { 
+    background-color: #2c3e50; padding: 15px; position: sticky; top: 0; z-index: 1000; 
+    display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav a { color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { color: #3498db; }
+
+/* الحاوية الرئيسية */
+.main-content { max-width: 900px; margin: 20px auto; padding: 20px; }
+
+/* تصميم الصناديق */
+.box { 
+    background: rgb(255, 255, 255); 
+    padding: 40px; 
+    margin-bottom: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    text-align: center;
+    border-right: 5px solid #3498db; /* لمسة جمالية جانبية */
+}
+
+/* تلوين الصندوق الرئيسي الأول */
+#home { background: linear-gradient(135deg, #3498db, #2c3e50); color: white; border: none; }
+
+footer { text-align: center; padding: 20px; color: #000000; }
+
+/* تجاوب الشاشات */
+@media (max-width: 600px) {
+    nav { gap: 10px; font-size: 14px; }
+    .box { padding: 20px; }
+}
+
+#footer { background-color: #ffffff;
+          padding: 10px 15px;
+          border-radius: 30px;
+          text-align: center;
+          margin: 30px 40px auto;
+          font-weight: bold;
+          font-size: 0.85rem;
+        }
+
+
+.video-link { 
+              background-color: #333;
+              color: #1ac61a;
+              padding: 10px 20px;
+              border-radius: 8px;
+              text-decoration: none;
+              display: inline-block;
+              font-weight: bold;
+            }
+
+.video-link:hover {
+       background-color: #3d6a3d;
+             }
